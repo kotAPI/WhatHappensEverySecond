@@ -1,0 +1,63 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.bound{
+	margin:0 none;
+	padding:0;
+	height:300px;
+	width:100%;
+	float:left;
+	display: inline;
+	text-align: center;
+}
+.bound-text{
+	position:relative;
+	top:50%;
+	width:49.5%;
+	text-align: center;
+	top:55%;
+}
+.bound-logo{
+	padding:0;
+	margin:0;
+	border: 0;
+	position:relative;
+	width:49.5%;
+	left:50%;
+	background-size: 100px 100px;
+}
+
+#home{
+	height:600px;
+	width:100%;
+	text-align: center;	
+	background: black;
+	
+}
+
+#home-text{
+	position: relative;
+	color: white;
+	font-size: 42px;
+	top:30%;
+	text-align: center;
+	width:100%;
+}
+
+#home-sub-text{
+	position:relative;
+	width:100%;
+	text-align: center;
+	font-size: 14px;
+	top:40%;
+	color:white;
+}
+
+#skype-background{
+	background:#3EBFEE;
+}
+#reddit-background{
+	background:red;
+}
