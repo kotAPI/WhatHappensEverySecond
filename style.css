@@ -32,6 +32,14 @@ body{
 	left:50%;
 	background-size: 100px 100px;
 }
+img{
+	position:relative;
+	width:auto;
+	height:auto;
+	min-width: 128px;
+	min-height: 128px;
+
+}
 
 #home{
 	height:600px;
