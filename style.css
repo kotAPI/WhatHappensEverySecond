@@ -30,16 +30,30 @@ body{
 	position:relative;
 	width:49.5%;
 	left:50%;
-	background-size: 100px 100px;
+	
 }
-img{
-	position:relative;
-	width:auto;
-	height:auto;
-	min-width: 128px;
-	min-height: 128px;
 
+@media only screen and (min-width: 1440px) {
+    /* styles for MacBook Pro-sized screens and larger */
+    img{
+    	height:256px;
+    	width:256px;
+    }
 }
+@media only screen and (max-width: 750px) {
+    /* styles for MacBook Pro-sized screens and larger */
+    img{
+    	height:128px;
+    	width:128px;
+    }
+    .bound-text{
+    	font-size: 12px;
+    }
+    .bound{
+    	height:200px;
+    }
+}
+
 
 #home{
 	height:600px;
@@ -56,9 +70,11 @@ img{
 	top:30%;
 	text-align: center;
 	width:100%;
+	font-family: "Oswald";
 }
 
 #home-sub-text{
+	font-family: "Oswald";
 	position:relative;
 	width:100%;
 	text-align: center;
