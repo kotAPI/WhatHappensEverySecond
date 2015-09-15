@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body{
+	margin:0;
+	padding: 0;
+}
+
+.bound{
+	margin:0 none;
+	padding:0;
+	height:300px;
+	width:100%;
+	float:left;
+	display: inline;
+	text-align: center;
+}
+.bound-text{
+	font-family: 'Oswald';
+	position:relative;
+	top:40%;
+	width:49.5%;
+	text-align: center;
+	color:white;
+	font-size: 26px;
+	
+}
+.bound-logo{
+	padding:0;
+	margin:0;
+	border: 0;
+	position:relative;
+	width:49.5%;
+	left:50%;
+	
+}
+
+@media only screen and (min-width: 1440px) {
+    /* styles for MacBook Pro-sized screens and larger */
+    img{
+    	height:256px;
+    	width:256px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    /* styles for MacBook Pro-sized screens and larger */
+    img{
+    	height:128px;
+    	width:128px;
+    }
+    .bound-text{
+    	font-size: 12px;
+    }
+    .bound{
+    	height:200px;
+    }
+}
+
+
+#home{
+	height:600px;
+	width:100%;
+	text-align: center;	
+	background: black;
+	
+}
+
+#home-text{
+	position: relative;
+	color: white;
+	font-size: 42px;
+	top:30%;
+	text-align: center;
+	width:100%;
+	font-family: "Oswald";
+}
+
+#home-sub-text{
+	font-family: "Oswald";
+	position:relative;
+	width:100%;
+	text-align: center;
+	font-size: 14px;
+	top:40%;
+	color:white;
+}
+
+#skype-background{
+	background:#3EBFEE;
+}
+#reddit-background{
+	background:#EF4623;
+}
+#twitter-background{
+	background:#55ACEE;
+}
+#insta-background{
+	background:#BAC101;
+}
+#tumblr-background{
+	background: #2B5F7B;
+}
+#google-background{
+	background:#7A2A22;
+}
+#youtube-background{
+	background:#EC2626;
+}
+#emails-background{
+	background:#CCD2D7;
+}
+#netflix-background{
+	background:#B30C0E;
+}
+#facebook-background{
+	background:#00BABA;
+}
+#dropbox-background{
+	background: #2B5F7B;
+}
+
+/* DONE? */
