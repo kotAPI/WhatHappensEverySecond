@@ -22,6 +22,7 @@ var Youtube = new HappensEverySecond("youtube",9284.1);
 var Emails = new HappensEverySecond("emails",235591.1);
 var Netflix = new HappensEverySecond("netflix",40.5);
 var Facebook = new HappensEverySecond("facebook",5480.6);
+var SO = new HappensEverySecond("SO",2169.4);
 
 window.setInterval(function(){
   /// call your function here
@@ -39,6 +40,5 @@ var UpdateHappenings = function(){
   	document.getElementById(Emails.type).innerHTML = "Emails sent: " + Math.round(Emails.returnSecs());
   	document.getElementById(Netflix.type).innerHTML = "Hours of netflix watched: " + Math.round(Netflix.returnSecs());
   	document.getElementById(Facebook.type).innerHTML = "Facebook likes: " + Math.round(Facebook.returnSecs());
-
-
+	document.getElementById(SO.type).innerHTML = "Stack Overflow Hits: " + Math.round(SO.returnSecs());
 }
